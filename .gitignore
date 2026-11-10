@@ -1,0 +1,30 @@
+# Byggfiler
+bin/
+build/
+*.o
+*.a
+*.so
+*.out
+ 
+# Debug / profilering
+*.dSYM/
+core
+core.*
+vgcore.*
+gmon.out
+*.gcda
+*.gcno
+ 
+# Resultater og logger fra kjøringer (f.eks. på HPC-klynge)
+*.log
+*.err
+*.o[0-9]*
+*.e[0-9]*
+ 
+# Editor og OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+ 
